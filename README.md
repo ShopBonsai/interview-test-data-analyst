@@ -1,4 +1,4 @@
-Welcome to the Bonsai Sr Data Analyst Test! Our goal for this test is to get a sense of priorities in work, how you work, and the quality of the final product as well! It's not meant to be a huge assignment and you can finish it in your own time.
+Welcome to the Bonsai Data Analyst Test! Our goal for this test is to get a sense of priorities in work, how you work, and the quality of the final product as well! It's not meant to be a huge assignment and you can finish it in your own time.
 
 ### The Task
 
