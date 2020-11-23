@@ -12,7 +12,7 @@ The datasets are simplified/redacted versions of data at Bonsai. Analyze the dat
 1. Product dataset
 2. Customer dataset
 3. Order dataset
-4. Order-item dataset: data about the products purchased within which order. As an example, order_id `00143d0f86d6fbd9f9b38ab440ac16f5`.
+4. Order-item dataset: data about the products purchased within which order. Consider order_id `00143d0f86d6fbd9f9b38ab440ac16f5`.
 It has 3 items (the same product). Each item has the shipping cost listed. To get the order's total cost you sum:
 
 ```
