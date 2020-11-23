@@ -9,10 +9,15 @@ The datasets provided in this test are simplified versions of the data you will 
 
 ### The Data
 
-1. Orders dataset: 
-2. Order items dataset
-3. Product dataset
-4. Customers dataset
+1. Product dataset
+2. Customer dataset
+3. Order dataset
+4. Order item dataset: data about the products purchased within wach order. Look at for example order_id `00143d0f86d6fbd9f9b38ab440ac16f5`.
+It has 3 items (same product). Each item has the shipping cost listed. To get the order's total shipping you just have to sum.
+
+Total raw item price for the order: 21.33 * 3 = 63.99 <br/>
+Total shipping: 15.10 * 3 = 45.30 <br/>
+Total order value (item + shipping): 45.30 + 63.99 = 109.29
 
 - It is up to you to decide how to combine information from these datasets
 - Assume all orders are delivered
