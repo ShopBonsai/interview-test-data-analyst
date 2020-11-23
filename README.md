@@ -1,32 +1,34 @@
-Welcome to the Bonsai Data Analyst Test! Our goal for this test is to get a sense of priorities in work, how you work, and the quality of the final product as well! It's not meant to be a huge assignment and you can finish it in your own time.
+Welcome to the Bonsai Data Analyst Test! The goal is to get a sense of your work-prioritization, how you work, and the quality of the final product!
 
 ### The Task
 
-The datasets provided in this test are simplified versions of the data you will find at Bonsai. Your task is to analyze the data and present your results to senior management:
-1. Summarizes sales and operations thus far - think about which statistics, metrics, or figures would be important for our business
+The datasets are simplified/redacted versions of data at Bonsai. Analyze the data and present your results to senior management:
+1. Summarizes sales and operations - think about which statistics, metrics, or figures are important to our business
 2. Propose 2-3 areas where the company can improve
-3. Any other piece of analysis you find crucial to include that highlight business KPIs
+3. Any other analysis you find crucial to include and highlight cretain business KPIs
 
 ### The Data
 
 1. Product dataset
 2. Customer dataset
 3. Order dataset
-4. Order item dataset: data about the products purchased within each order. Look at for example order_id `00143d0f86d6fbd9f9b38ab440ac16f5`.
-It has 3 items (same product). Each item has the shipping cost listed. To get the order's total shipping you just have to sum.
+4. Order-item dataset: data about the products purchased within which order. As an example, order_id `00143d0f86d6fbd9f9b38ab440ac16f5`.
+It has 3 items (the same product). Each item has the shipping cost listed. To get the order's total cost you sum:
 
-Total raw item price for the order: 21.33 * 3 = 63.99 <br/>
-Total shipping: 15.10 * 3 = 45.30 <br/>
-Total order value (item + shipping): 45.30 + 63.99 = 109.29
+```
+63.99 Total raw item price for the order (21.33 * 3)
+45.30 Total shipping (15.10 * 3)
+----
+109.29 Total order value
+```
 
-- It is up to you to decide how to combine information from these datasets
-- Assume all orders are delivered
-- Consider data from 2017-2018
+- It is up to you to decide how to combine these datasets
+- Assume all orders are delivered (no refunds, no exchanges, no partial-orders)
 
 ### Some Tips
 
-Think of this test as an open ended problem you are solving. You will decide what direction the analysis takes - but keep in mind that it is a presentation to senior management. Keep your final results brief (it should take ~15 min to go over them).
+This is an open ended problem. You can select what direction the analysis takes - but keep in mind that it is a presentation to senior management. Keep your final results brief (it should take ~15 min to present).
 
-Having said that, you are still being tested on your analytical skills. As such please provide all code, documents, and your thought process in your submission.
+In addition to communication, your analytical skills are evaluated. Please provide all code, documentation, and an overview of the thought process in your submission.
 
 You are free to choose your platform for analysis and presentation. Good luck!
