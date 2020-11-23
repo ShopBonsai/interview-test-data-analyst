@@ -2,7 +2,7 @@ Welcome to the Bonsai Data Analyst Test! Our goal for this test is to get a sens
 
 ### The Task
 
-The datasets provided in this test are simplified versions of the data you will find at Bonsai. Your task is to analysze the data and present your results to senior management:
+The datasets provided in this test are simplified versions of the data you will find at Bonsai. Your task is to analyze the data and present your results to senior management:
 1. Summarizes sales and operations thus far - think about which statistics, metrics, or figures would be important for our business
 2. Propose 2-3 areas where the company can improve
 3. Any other piece of analysis you find crucial to include that highlight business KPIs
@@ -12,7 +12,7 @@ The datasets provided in this test are simplified versions of the data you will 
 1. Product dataset
 2. Customer dataset
 3. Order dataset
-4. Order item dataset: data about the products purchased within wach order. Look at for example order_id `00143d0f86d6fbd9f9b38ab440ac16f5`.
+4. Order item dataset: data about the products purchased within each order. Look at for example order_id `00143d0f86d6fbd9f9b38ab440ac16f5`.
 It has 3 items (same product). Each item has the shipping cost listed. To get the order's total shipping you just have to sum.
 
 Total raw item price for the order: 21.33 * 3 = 63.99 <br/>
